@@ -1,16 +1,10 @@
-package com.Uber.UberReviewService.models;
+package com.Uber.uberreviewservice.models;
 
 public enum BookingStatus {
     SCHEDULED,
-
     CANCELLED,
-
     CAB_ARRIVED,
-
-    ASSIGNS_DRIVER,
-
+    ASSIGNING_DRIVER,
     IN_RIDE,
-
-    COMPLETED,
-
+    COMPLETED
 }
