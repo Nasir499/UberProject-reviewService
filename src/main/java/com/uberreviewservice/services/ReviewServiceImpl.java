@@ -1,6 +1,6 @@
 package com.uberreviewservice.services;
 
-import com.uberreviewservice.models.Review;
+import com.example.uberentityservice.models.Review;
 import com.uberreviewservice.repositories.ReviewRepository;
 import jakarta.persistence.EntityNotFoundException;
 import jakarta.transaction.Transactional;

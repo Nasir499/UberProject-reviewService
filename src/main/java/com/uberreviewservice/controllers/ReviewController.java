@@ -1,9 +1,9 @@
 package com.uberreviewservice.controllers;
 
+import com.example.uberentityservice.models.Review;
 import com.uberreviewservice.adapters.CreateReviewDtoToReviewAdapter;
 import com.uberreviewservice.dtos.CreateReviewDto;
 import com.uberreviewservice.dtos.ReviewDto;
-import com.uberreviewservice.models.Review;
 import com.uberreviewservice.services.ReviewService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
