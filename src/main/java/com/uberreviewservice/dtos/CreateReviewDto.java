@@ -1,4 +1,4 @@
-package com.Uber.uberreviewservice.dtos;
+package com.uberreviewservice.dtos;
 
 
 import lombok.Getter;

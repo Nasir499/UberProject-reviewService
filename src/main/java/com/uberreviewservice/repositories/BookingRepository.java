@@ -1,6 +1,6 @@
-package com.Uber.uberreviewservice.repositories;
+package com.uberreviewservice.repositories;
 
-import com.Uber.uberreviewservice.models.Booking;
+import com.uberreviewservice.models.Booking;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

@@ -1,10 +1,10 @@
-package com.Uber.uberreviewservice.controllers;
+package com.uberreviewservice.controllers;
 
-import com.Uber.uberreviewservice.adapters.CreateReviewDtoToReviewAdapter;
-import com.Uber.uberreviewservice.dtos.CreateReviewDto;
-import com.Uber.uberreviewservice.dtos.ReviewDto;
-import com.Uber.uberreviewservice.models.Review;
-import com.Uber.uberreviewservice.services.ReviewService;
+import com.uberreviewservice.adapters.CreateReviewDtoToReviewAdapter;
+import com.uberreviewservice.dtos.CreateReviewDto;
+import com.uberreviewservice.dtos.ReviewDto;
+import com.uberreviewservice.models.Review;
+import com.uberreviewservice.services.ReviewService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
@@ -16,8 +16,8 @@ import java.util.Optional;
 @RestController
 @RequestMapping("/api/v1/reviews")
 public class ReviewController {
-    private ReviewService reviewService;
-    private CreateReviewDtoToReviewAdapter createReviewDtoToReviewAdapter;
+    private final ReviewService reviewService;
+    private final CreateReviewDtoToReviewAdapter createReviewDtoToReviewAdapter;
     public ReviewController(ReviewService reviewService, CreateReviewDtoToReviewAdapter createReviewDtoToReviewAdapter){
 
         this.reviewService = reviewService;

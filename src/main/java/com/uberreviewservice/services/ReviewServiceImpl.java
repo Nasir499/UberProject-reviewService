@@ -1,7 +1,7 @@
-package com.Uber.uberreviewservice.services;
+package com.uberreviewservice.services;
 
-import com.Uber.uberreviewservice.models.Review;
-import com.Uber.uberreviewservice.repositories.ReviewRepository;
+import com.uberreviewservice.models.Review;
+import com.uberreviewservice.repositories.ReviewRepository;
 import jakarta.persistence.EntityNotFoundException;
 import jakarta.transaction.Transactional;
 import org.hibernate.FetchNotFoundException;

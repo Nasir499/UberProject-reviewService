@@ -1,4 +1,4 @@
-package com.Uber.uberreviewservice.models;
+package com.uberreviewservice.models;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import jakarta.persistence.Entity;
